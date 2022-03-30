@@ -6,15 +6,16 @@
 //
 
 import SwiftUI
+import OnePanchiOS
 
 @main
 struct OnePanchApp: App {
-    let persistenceController = PersistenceController.shared
-
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    let injectionContainer = OnePanchAppDependencyContainer()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            injectionContainer.makeMainView()
         }
     }
 }

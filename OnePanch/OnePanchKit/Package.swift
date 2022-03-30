@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "OnePanchKit",
+    platforms: [.iOS("15.0"), .macOS("10.12"), .tvOS("10.0"), .watchOS("3.0")],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(

@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB5855F527F43F8600A4C611 /* OnePanchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5855F427F43F8600A4C611 /* OnePanchApp.swift */; };
-		AB5855F727F43F8600A4C611 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5855F627F43F8600A4C611 /* ContentView.swift */; };
+		AB422AA727F45DDC00C1BD2F /* OnePanchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB422AA627F45DDC00C1BD2F /* OnePanchApp.swift */; };
 		AB5855F927F43F8700A4C611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5855F827F43F8700A4C611 /* Assets.xcassets */; };
 		AB5855FC27F43F8700A4C611 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5855FB27F43F8700A4C611 /* Preview Assets.xcassets */; };
-		AB5855FE27F43F8700A4C611 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5855FD27F43F8700A4C611 /* Persistence.swift */; };
-		AB58560127F43F8700A4C611 /* OnePanch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB5855FF27F43F8700A4C611 /* OnePanch.xcdatamodeld */; };
 		AB58560B27F43F8700A4C611 /* OnePanchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58560A27F43F8700A4C611 /* OnePanchTests.swift */; };
 		AB58561527F43F8700A4C611 /* OnePanchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58561427F43F8700A4C611 /* OnePanchUITests.swift */; };
 		AB58561727F43F8700A4C611 /* OnePanchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58561627F43F8700A4C611 /* OnePanchUITestsLaunchTests.swift */; };
 		AB5A298427F455A300C9B997 /* OnePanchiOS in Frameworks */ = {isa = PBXBuildFile; productRef = AB5A298327F455A300C9B997 /* OnePanchiOS */; };
+		AB5A298727F45AE900C9B997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5A298627F45AE900C9B997 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,18 +38,16 @@
 		AB0BF1AE27F4554900B9A97B /* OnePanchiOS */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = OnePanchiOS; sourceTree = "<group>"; };
 		AB0BF1AF27F4554B00B9A97B /* OnePanchUIKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = OnePanchUIKit; sourceTree = "<group>"; };
 		AB0BF1B027F4554C00B9A97B /* OnePanchKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = OnePanchKit; sourceTree = "<group>"; };
+		AB422AA627F45DDC00C1BD2F /* OnePanchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePanchApp.swift; sourceTree = "<group>"; };
 		AB5855F127F43F8600A4C611 /* OnePanch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePanch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB5855F427F43F8600A4C611 /* OnePanchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePanchApp.swift; sourceTree = "<group>"; };
-		AB5855F627F43F8600A4C611 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB5855F827F43F8700A4C611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB5855FB27F43F8700A4C611 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AB5855FD27F43F8700A4C611 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		AB58560027F43F8700A4C611 /* OnePanch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OnePanch.xcdatamodel; sourceTree = "<group>"; };
 		AB58560627F43F8700A4C611 /* OnePanchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePanchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB58560A27F43F8700A4C611 /* OnePanchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePanchTests.swift; sourceTree = "<group>"; };
 		AB58561027F43F8700A4C611 /* OnePanchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePanchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB58561427F43F8700A4C611 /* OnePanchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePanchUITests.swift; sourceTree = "<group>"; };
 		AB58561627F43F8700A4C611 /* OnePanchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePanchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB5A298627F45AE900C9B997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +103,9 @@
 		AB5855F327F43F8600A4C611 /* OnePanch */ = {
 			isa = PBXGroup;
 			children = (
-				AB5855F427F43F8600A4C611 /* OnePanchApp.swift */,
-				AB5855F627F43F8600A4C611 /* ContentView.swift */,
+				AB5A298627F45AE900C9B997 /* AppDelegate.swift */,
+				AB422AA627F45DDC00C1BD2F /* OnePanchApp.swift */,
 				AB5855F827F43F8700A4C611 /* Assets.xcassets */,
-				AB5855FD27F43F8700A4C611 /* Persistence.swift */,
-				AB5855FF27F43F8700A4C611 /* OnePanch.xcdatamodeld */,
 				AB5855FA27F43F8700A4C611 /* Preview Content */,
 			);
 			path = OnePanch;
@@ -282,10 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB5855FE27F43F8700A4C611 /* Persistence.swift in Sources */,
-				AB58560127F43F8700A4C611 /* OnePanch.xcdatamodeld in Sources */,
-				AB5855F727F43F8600A4C611 /* ContentView.swift in Sources */,
-				AB5855F527F43F8600A4C611 /* OnePanchApp.swift in Sources */,
+				AB5A298727F45AE900C9B997 /* AppDelegate.swift in Sources */,
+				AB422AA727F45DDC00C1BD2F /* OnePanchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,19 +611,6 @@
 			productName = OnePanchiOS;
 		};
 /* End XCSwiftPackageProductDependency section */
-
-/* Begin XCVersionGroup section */
-		AB5855FF27F43F8700A4C611 /* OnePanch.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				AB58560027F43F8700A4C611 /* OnePanch.xcdatamodel */,
-			);
-			currentVersion = AB58560027F43F8700A4C611 /* OnePanch.xcdatamodel */;
-			path = OnePanch.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = AB5855E927F43F8600A4C611 /* Project object */;
 }
