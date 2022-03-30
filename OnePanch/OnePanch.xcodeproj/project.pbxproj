@@ -16,6 +16,7 @@
 		AB58560B27F43F8700A4C611 /* OnePanchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58560A27F43F8700A4C611 /* OnePanchTests.swift */; };
 		AB58561527F43F8700A4C611 /* OnePanchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58561427F43F8700A4C611 /* OnePanchUITests.swift */; };
 		AB58561727F43F8700A4C611 /* OnePanchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB58561627F43F8700A4C611 /* OnePanchUITestsLaunchTests.swift */; };
+		AB5A298427F455A300C9B997 /* OnePanchiOS in Frameworks */ = {isa = PBXBuildFile; productRef = AB5A298327F455A300C9B997 /* OnePanchiOS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB0BF1AE27F4554900B9A97B /* OnePanchiOS */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = OnePanchiOS; sourceTree = "<group>"; };
+		AB0BF1AF27F4554B00B9A97B /* OnePanchUIKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = OnePanchUIKit; sourceTree = "<group>"; };
+		AB0BF1B027F4554C00B9A97B /* OnePanchKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = OnePanchKit; sourceTree = "<group>"; };
 		AB5855F127F43F8600A4C611 /* OnePanch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePanch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5855F427F43F8600A4C611 /* OnePanchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePanchApp.swift; sourceTree = "<group>"; };
 		AB5855F627F43F8600A4C611 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5A298427F455A300C9B997 /* OnePanchiOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,9 +84,13 @@
 			isa = PBXGroup;
 			children = (
 				AB5855F327F43F8600A4C611 /* OnePanch */,
+				AB0BF1AE27F4554900B9A97B /* OnePanchiOS */,
+				AB0BF1AF27F4554B00B9A97B /* OnePanchUIKit */,
+				AB0BF1B027F4554C00B9A97B /* OnePanchKit */,
 				AB58560927F43F8700A4C611 /* OnePanchTests */,
 				AB58561327F43F8700A4C611 /* OnePanchUITests */,
 				AB5855F227F43F8600A4C611 /* Products */,
+				AB5A298227F455A300C9B997 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +142,13 @@
 			path = OnePanchUITests;
 			sourceTree = "<group>";
 		};
+		AB5A298227F455A300C9B997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +165,9 @@
 			dependencies = (
 			);
 			name = OnePanch;
+			packageProductDependencies = (
+				AB5A298327F455A300C9B997 /* OnePanchiOS */,
+			);
 			productName = OnePanch;
 			productReference = AB5855F127F43F8600A4C611 /* OnePanch.app */;
 			productType = "com.apple.product-type.application";
@@ -593,6 +612,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB5A298327F455A300C9B997 /* OnePanchiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OnePanchiOS;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		AB5855FF27F43F8700A4C611 /* OnePanch.xcdatamodeld */ = {
